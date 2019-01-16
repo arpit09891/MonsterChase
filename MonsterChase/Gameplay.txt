@@ -1,0 +1,10 @@
+Gameplay:
+
+The basic implementation of Space invaders. 
+The Game will stay active untill player ship will kill all the enemies. Once all the enemies are dead game will close.
+
+Loose Condition : Game will be closed and player will be lost if player doesn't kill all enemies in 50 seconds.
+a and d to move left and right respectively.
+w to shoot enemies.
+
+

@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\MemoryManagerCPP">
+      <UniqueIdentifier>{bec5da40-7e15-4a00-914c-9edaeb3078c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HashedString">
+      <UniqueIdentifier>{817d5a90-ced9-4c58-89ab-481fd77a844e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JobSystem">
+      <UniqueIdentifier>{1242cbf7-4377-45b8-963d-5375924b45e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Threading">
+      <UniqueIdentifier>{032b04d9-2ed2-42b3-87ff-f83b82df8f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lua">
+      <UniqueIdentifier>{465ceda1-159b-4060-b838-3fd749f029f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SmartAndWeakPtr">
+      <UniqueIdentifier>{3460f89a-e528-493e-ae6f-43ef37dc5623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pool">
+      <UniqueIdentifier>{e0311dc2-6484-467b-bf4e-2a2c816ac297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngineCPP">
+      <UniqueIdentifier>{5c07d346-fbe7-48ca-9dd9-387e3c154079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameEngineHeaderFiles">
+      <UniqueIdentifier>{9e3e755e-74e5-473b-86a4-dd9ad63eb082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MemoryManagerHeaderFiles">
+      <UniqueIdentifier>{df1cc576-7a68-4aef-bda9-6081397c1374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ConsolePrint">
+      <UniqueIdentifier>{5da041b2-1156-418d-a3e1-fd3696bf12d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CoordinateSystem">
+      <UniqueIdentifier>{ec9906cd-e219-463d-897d-b89e84a47d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{f58c2814-61d0-44b1-b221-96f6a4844568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MessagingSystem">
+      <UniqueIdentifier>{0ec0ed58-2517-443a-af00-b202b4a7b291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Profiler">
+      <UniqueIdentifier>{444f0556-2d55-4b5c-becc-58045695153d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FSA.cpp">
+      <Filter>Source Files\MemoryManagerCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="FSAManager.cpp">
+      <Filter>Source Files\MemoryManagerCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockAllocator.cpp">
+      <Filter>Source Files\MemoryManagerCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="BitArrayTestCase.cpp">
+      <Filter>Source Files\MemoryManagerCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="BitArray.cpp">
+      <Filter>Source Files\MemoryManagerCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IJob.cpp">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="JobRunner.cpp">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSystem.cpp">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedJobQueue.cpp">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.cpp">
+      <Filter>Source Files\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>Source Files\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Semaphore.cpp">
+      <Filter>Source Files\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaTestClass.cpp">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="StringPool.cpp">
+      <Filter>Source Files\Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\GameEngineCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Source Files\GameEngineCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Point2D.cpp">
+      <Filter>Source Files\GameEngineCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\GameEngineCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="floatTestCase.cpp">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessFile.cpp">
+      <Filter>Source Files\GameEngineCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessFile_Process.cpp">
+      <Filter>Source Files\GameEngineCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="HashedString.cpp">
+      <Filter>Source Files\HashedString</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsolePrint.Win32.cpp">
+      <Filter>Source Files\ConsolePrint</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files\CoordinateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files\GameEngineCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MessagingSystem.cpp">
+      <Filter>Source Files\MessagingSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlockAllocator.h">
+      <Filter>Header Files\MemoryManagerHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockAllocator-inl.h">
+      <Filter>Header Files\MemoryManagerHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="FSA.h">
+      <Filter>Header Files\MemoryManagerHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="FSAManager.h">
+      <Filter>Header Files\MemoryManagerHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="IJob.h">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JobRunner.h">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSystem.h">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedJobQueue.h">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedJobQueue-inl.h">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="INamed.h">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleWriterMultipleReader.h">
+      <Filter>Source Files\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitableObject.h">
+      <Filter>Source Files\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Semaphore.h">
+      <Filter>Source Files\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>Source Files\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Source Files\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="lauxlib.h">
+      <Filter>Source Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua.h">
+      <Filter>Source Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua.hpp">
+      <Filter>Source Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="luaconf.h">
+      <Filter>Source Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lualib.h">
+      <Filter>Source Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaTestClass.h">
+      <Filter>Source Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr.h">
+      <Filter>Source Files\SmartAndWeakPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr-inl.h">
+      <Filter>Source Files\SmartAndWeakPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakPointer.h">
+      <Filter>Source Files\SmartAndWeakPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakPointer-inl.h">
+      <Filter>Source Files\SmartAndWeakPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="StringPool-int.h">
+      <Filter>Source Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="StringPoolTest.h">
+      <Filter>Source Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="StringPool.h">
+      <Filter>Source Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="BitArray.h">
+      <Filter>Header Files\MemoryManagerHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckFloat-inl.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObjectController.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Point2D.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Point2D-inl.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessFile.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessFile_Process.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedString.h">
+      <Filter>Source Files\HashedString</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedString-inl.h">
+      <Filter>Source Files\HashedString</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsolePrint.h">
+      <Filter>Source Files\ConsolePrint</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Source Files\CoordinateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities-inl.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3-inl.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4-int.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files\GameEngineHeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="MessagingSystem.h">
+      <Filter>Source Files\MessagingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Source Files\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Accumulator.h">
+      <Filter>Source Files\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroProfiler.h">
+      <Filter>Source Files\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopedTimer.h">
+      <Filter>Source Files\Profiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

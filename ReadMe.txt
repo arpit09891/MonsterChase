@@ -1,0 +1,1 @@
+This is the code I have written between Aug 2016 - Feb 2017. I feel this doesn't represent my current abilities in C++. However, it shows basi understanding.
